@@ -1,0 +1,318 @@
+{
+    "users": [
+        {
+            "id": "admin-user",
+            "name": "Admin",
+            "email": "admin",
+            "password": "1",
+            "role": "admin"
+        },
+        {
+            "id": "06d5775b-82bb-4410-9fd5-b688e5dc694c",
+            "name": "YUSUF",
+            "email": "yusuf@gmail.com",
+            "password": "admin",
+            "role": "customer"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "category_id": "86cde1f7-132c-43bf-ae4b-2280831cb680",
+            "price": 120.0,
+            "image": "/static/uploads/e41c694c-b854-42a1-969a-a2a00b74580a_2.jpg",
+            "inventory": [
+                {
+                    "size": "S",
+                    "quantity": 1
+                },
+                {
+                    "size": "L",
+                    "quantity": 6
+                }
+            ],
+            "name_tj": "Футболкаи мардона",
+            "name_ru": "Мужская футболка",
+            "name_en": "Men's T-shirt",
+            "description_tj": "Либоси мардонаи баландсифат, воридот аз Туркия. Матои пахтагӣ.",
+            "description_ru": "Качественная мужская одежда, импорт из Турции. Хлопковая ткань.",
+            "description_en": "High-quality men's clothing, imported from Turkey. Cotton fabric.",
+            "name": "Либоси мардона",
+            "description": "Беҳтарин либос"
+        },
+        {
+            "id": 2,
+            "category_id": "d6e8f72f-4c96-4216-b427-b688b8bb711e",
+            "price": 250.0,
+            "image": "/static/uploads/eafa19d6-d92f-4041-9464-72b19d82011e_3.jpg",
+            "inventory": [
+                {
+                    "size": "M",
+                    "quantity": 0
+                }
+            ],
+            "name_tj": "Куртаи занона",
+            "name_ru": "Женское платье",
+            "name_en": "Women's Dress",
+            "description_tj": "Куртаи зебои занона барои чорабиниҳо.",
+            "description_ru": "Красивое женское платье для мероприятий.",
+            "description_en": "A beautiful women's dress for events.",
+            "name": "Либоси занона",
+            "description": "Либоси бо сифати барои занона"
+        },
+        {
+            "id": 4,
+            "name": "Либоси босифати мардона😉🌸",
+            "price": 250.0,
+            "description": "Либоси босифати мардона😉🌸",
+            "category": "Либоси мардона",
+            "image": "/static/uploads/bd44ca5e-00f0-4216-82ed-ba3ea58793a1_AgACAgIAAxkBAAIBTGjIaq_G8y73xKd22jiihtBZbJN1AAJg_DEbDbRBSnxAEZ22lIyZAQADAgADeQADNgQ.jpg",
+            "inventory": [
+                {
+                    "size": "S",
+                    "quantity": 2
+                },
+                {
+                    "size": "X",
+                    "quantity": 0
+                },
+                {
+                    "size": "L",
+                    "quantity": 7
+                },
+                {
+                    "size": "XL",
+                    "quantity": 8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Пояфзоли мардона 👟❤️",
+            "price": 120.0,
+            "description": "Пояфзоли мардона 👟❤️",
+            "category": "Пояфзоли мардона 👟",
+            "image": "/static/uploads/6c9c4e13-2800-446f-b366-08d37681ffd8_AgACAgIAAxkBAAOzaMhNscjm-iC-JGVdtf882dWTY0wAAk76MRsNtEFKwXy8H4UOq-wBAAMCAAN5AAM2BA.jpg",
+            "inventory": [
+                {
+                    "size": "45",
+                    "quantity": 2
+                },
+                {
+                    "size": "40",
+                    "quantity": 10
+                },
+                {
+                    "size": "35",
+                    "quantity": 0
+                },
+                {
+                    "size": "30",
+                    "quantity": 9
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Пояфзоли мардона🙎",
+            "price": 135.0,
+            "description": "Пояфзоли мардона🙎",
+            "category": "Пояфзоли мардона 👟",
+            "image": "/static/uploads/0fbe17b1-f426-48e6-b461-16132f8d4194_AgACAgIAAxkBAAIBxGjIc4dPPv5LlI5w3bKGN6KJIhYIAAKx_DEbDbRBSlC65pvbUsAbAQADAgADeQADNgQ.jpg",
+            "inventory": [
+                {
+                    "size": "45",
+                    "quantity": 10
+                },
+                {
+                    "size": "40",
+                    "quantity": 5
+                },
+                {
+                    "size": "35",
+                    "quantity": 6
+                },
+                {
+                    "size": "30",
+                    "quantity": 9
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Пояфзоли сабук ва босифат, мардона 🙎🏻‍♂️👟",
+            "price": 250.0,
+            "description": "Пояфзоли сабук ва босифат, мардона 🙎🏻‍♂️👟",
+            "category": "Пояфзоли мардона 👟",
+            "image": "/static/uploads/06f1f3ca-28bf-4d9d-9009-846777cccb2c_AgACAgIAAxkBAAIB12jIdE64kx2iT9lXJZQjA5OBjhgaAAK0_DEbDbRBShxHs4-9P9C8AQADAgADeQADNgQ.jpg",
+            "inventory": [
+                {
+                    "size": "45",
+                    "quantity": 0
+                },
+                {
+                    "size": "40",
+                    "quantity": 6
+                },
+                {
+                    "size": "35",
+                    "quantity": 7
+                }
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "id": "4d2a18e4-d774-4047-a4ae-55bb9872bae1",
+            "name": "Либоси мардона",
+            "name_tj": "Либоси мардона",
+            "name_ru": "Либоси мардона",
+            "name_en": "Либоси мардона"
+        },
+        {
+            "id": "0872d5a5-d3d5-4b2d-b69f-fe06142a7a73",
+            "name": "Либоси занона",
+            "name_tj": "Либоси занона",
+            "name_ru": "Либоси занона",
+            "name_en": "Либоси занона"
+        },
+        {
+            "id": "bf2c3e29-5ef8-4be7-ad2e-cbdd7277f199",
+            "name": "Пояфзоли мардона 👟"
+        },
+        {
+            "id": "e6a91c3f-e3ff-49a4-b5ad-917d840bbb8a",
+            "name_tj": "Либоси кудакона",
+            "name_ru": "Либоси кудакона",
+            "name_en": "Либоси кудакона"
+        }
+    ],
+    "orders": [
+        {
+            "id": "da515cca-e1c9-4068-ae27-949c005d91de",
+            "userId": "06d5775b-82bb-4410-9fd5-b688e5dc694c",
+            "userName": "YUSUF",
+            "address": "мсҷров",
+            "phone": "65247890",
+            "cart": [
+                {
+                    "id": 4,
+                    "name": "Либоси босифати мардона😉🌸",
+                    "price": 250,
+                    "image": "/static/uploads/bd44ca5e-00f0-4216-82ed-ba3ea58793a1_AgACAgIAAxkBAAIBTGjIaq_G8y73xKd22jiihtBZbJN1AAJg_DEbDbRBSnxAEZ22lIyZAQADAgADeQADNgQ.jpg",
+                    "selectedSize": "S",
+                    "quantity": 3
+                }
+            ],
+            "total": 750,
+            "promo_code": null,
+            "status": "Иҷро шуд",
+            "createdAt": "2025-09-16 00:50:54"
+        },
+        {
+            "id": "2907c54e-8dcb-4862-919a-733234018702",
+            "userId": "6132285237",
+            "userName": "𝗬𝗨𝗦𝗨𝗙𝗝𝗢𝗡🇹🇯",
+            "address": "ш. Душанбе №92",
+            "phone": "000991828",
+            "cart": [
+                {
+                    "id": 5,
+                    "quantity": 3
+                },
+                {
+                    "id": 7,
+                    "quantity": 2
+                },
+                {
+                    "id": 1,
+                    "quantity": 4
+                }
+            ],
+            "total": 1340.0,
+            "promo_code": null,
+            "status": "Иҷро шуд",
+            "createdAt": "2025-09-17 23:14:26"
+        },
+        {
+            "id": "32c326ef-4283-4a81-90a0-e1fd1167a03b",
+            "userId": "06d5775b-82bb-4410-9fd5-b688e5dc694c",
+            "userName": "Номаълум",
+            "address": "ш.Душанбе кучаи Борбад №92",
+            "phone": "972392339",
+            "cart": [
+                {
+                    "id": 5,
+                    "name": "Пояфзоли мардона 👟❤️",
+                    "price": 120,
+                    "image": "/static/uploads/6c9c4e13-2800-446f-b366-08d37681ffd8_AgACAgIAAxkBAAOzaMhNscjm-iC-JGVdtf882dWTY0wAAk76MRsNtEFKwXy8H4UOq-wBAAMCAAN5AAM2BA.jpg",
+                    "selectedSize": "35",
+                    "quantity": 8,
+                    "stock": 8
+                },
+                {
+                    "id": 4,
+                    "name": "Либоси босифати мардона😉🌸",
+                    "price": 250,
+                    "image": "/static/uploads/bd44ca5e-00f0-4216-82ed-ba3ea58793a1_AgACAgIAAxkBAAIBTGjIaq_G8y73xKd22jiihtBZbJN1AAJg_DEbDbRBSnxAEZ22lIyZAQADAgADeQADNgQ.jpg",
+                    "selectedSize": "X",
+                    "quantity": 5
+                }
+            ],
+            "total": 2210,
+            "promo_code": null,
+            "status": "Иҷро шуд",
+            "createdAt": "2025-09-18 01:18:41"
+        },
+        {
+            "id": "3a4cfe1e-5f59-49e0-9586-3140d9ecd778",
+            "userId": "6132285237",
+            "userName": "𝗬𝗨𝗦𝗨𝗙𝗝𝗢𝗡🇹🇯",
+            "address": "Ш. Душанбе №93",
+            "phone": "48586848",
+            "cart": [
+                {
+                    "id": 4,
+                    "quantity": 5
+                }
+            ],
+            "total": 1250.0,
+            "promo_code": null,
+            "status": "Нав",
+            "createdAt": "2025-09-18 01:35:35"
+        }
+    ],
+    "slides": [],
+    "promo_codes": [
+        {
+            "id": "b8e27ee1-b6c5-46d6-8a4b-3f7cd90f94c9",
+            "code": "ORIYON-1M2X",
+            "discount": 10,
+            "is_active": true
+        },
+        {
+            "id": "fa67623a-d457-4af3-906f-fcfd7b3adc42",
+            "code": "ORIYON-E1AL",
+            "discount": 10,
+            "is_active": true
+        },
+        {
+            "id": "b4ae4dc3-4a54-4a46-b377-b700f7c9dcac",
+            "code": "ORIYON-COYK",
+            "discount": 10,
+            "is_active": true
+        },
+        {
+            "id": "83d0ec51-4f3a-45de-9dd9-ecbc33cb33d1",
+            "code": "ORIYON-EVGF",
+            "discount": 10,
+            "is_active": true
+        },
+        {
+            "id": "5ac33069-b23f-4072-b2ee-8840ecf0adbf",
+            "code": "ORIYON-67DS",
+            "discount": 10,
+            "is_active": true
+        }
+    ]
+}

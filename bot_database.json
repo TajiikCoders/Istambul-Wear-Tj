@@ -1,0 +1,70 @@
+{
+    "users": [
+        {
+            "id": "admin-user",
+            "name": "Admin",
+            "email": "admin",
+            "password": "1",
+            "role": "admin"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "category_id": "86cde1f7-132c-43bf-ae4b-2280831cb680",
+            "price": 120.0,
+            "image": "/static/uploads/e41c694c-b854-42a1-969a-a2a00b74580a_2.jpg",
+            "inventory": [
+                {
+                    "size": "S",
+                    "quantity": 1
+                },
+                {
+                    "size": "L",
+                    "quantity": 10
+                }
+            ],
+            "name_tj": "Футболкаи мардона",
+            "name_ru": "Мужская футболка",
+            "name_en": "Men's T-shirt",
+            "description_tj": "Либоси мардонаи баландсифат, воридот аз Туркия. Матои пахтагӣ.",
+            "description_ru": "Качественная мужская одежда, импорт из Турции. Хлопковая ткань.",
+            "description_en": "High-quality men's clothing, imported from Turkey. Cotton fabric."
+        },
+        {
+            "id": 2,
+            "category_id": "d6e8f72f-4c96-4216-b427-b688b8bb711e",
+            "price": 250.0,
+            "image": "/static/uploads/placeholder.jpg",
+            "inventory": [
+                {
+                    "size": "M",
+                    "quantity": 5
+                }
+            ],
+            "name_tj": "Куртаи занона",
+            "name_ru": "Женское платье",
+            "name_en": "Women's Dress",
+            "description_tj": "Куртаи зебои занона барои чорабиниҳо.",
+            "description_ru": "Красивое женское платье для мероприятий.",
+            "description_en": "A beautiful women's dress for events."
+        }
+    ],
+    "categories": [
+        {
+            "id": "86cde1f7-132c-43bf-ae4b-2280831cb680",
+            "name_tj": "👕 Либоси Мардона",
+            "name_ru": "👕 Мужская одежда",
+            "name_en": "👕 Men's Clothing"
+        },
+        {
+            "id": "d6e8f72f-4c96-4216-b427-b688b8bb711e",
+            "name_tj": "👗 Либоси Занона",
+            "name_ru": "👗 Женская одежда",
+            "name_en": "👗 Women's Clothing"
+        }
+    ],
+    "orders": [],
+    "slides": []
+}
+
